@@ -24,3 +24,7 @@ export PATH="$PATH:$HOME/.rvm/bin"
 alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
 alias chrome-canary="/Applications/Google\ Chrome\ Canary.app/Contents/MacOS/Google\ Chrome\ Canary"
 alias chromium="/Applications/Chromium.app/Contents/MacOS/Chromium"
+
+export FZF_DEFAULT_COMMAND="ag -g \"\""
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+
