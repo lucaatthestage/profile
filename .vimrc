@@ -34,3 +34,7 @@ let g:ackprg = 'ag --nogroup --nocolor --column'
 
 cnoreabbrev Ack Ack!
 nnoremap <Leader>a :Ack!<Space>
+
+vmap <C-c> y:call system("pbcopy", getreg("\""))<CR>
+nmap <C-v> :call setreg("\"",system("pbpaste"))<CR>p
+set mouse=a
